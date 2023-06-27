@@ -42,7 +42,7 @@ export const About = () => {
                      un proyecto basado en este gusto que siempre tuve.</p>
               </div>
               <div className='container-logos'>
-              <a href="https://github.com/willytucuman" target='_blank'>
+              <a href="https://github.com/willytucuman" target="_blank" without rel="noreferrer">
                   <img src={logogh} alt="" className='logos-card'/>
                 </a>
                 <a href="https://www.instagram.com/tomi_williams01/" target='_blank'>
@@ -56,23 +56,3 @@ export const About = () => {
 }
 
 export default About
- 
-{/* <>
-   
-   <div classNameNameName="card">
-    <div classNameNameName="card-body1">
-   
-      <h5 classNameNameName="card-title"></h5>
-      <p classNameNameName="card-text"></p>
-      <img width="200px" src={tomi} alt="" />
-    </div>
-      <div classNameNameName='container-secondCard'>
-      <div classNameNameName="card-body2">
-     
-      <h5 classNameNameName="card-title">Acerca de </h5>
-      <p classNameNameName="card-text"></p>
-      <img src={andres} width="200px" height="350px" alt="" />
-    </div>
-      </div>
-  </div>
- </> */}
